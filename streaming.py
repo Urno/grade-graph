@@ -16,7 +16,7 @@ trace1 = go.Scatter(
 
 data = go.Data([trace1])
 
-layout = go.Layout(title='Time Series')
+layout = go.Layout(title='Grade')
 fig = go.Figure(data=data, layout=layout)
 py.plot(fig, filename='python-streaming')
 
